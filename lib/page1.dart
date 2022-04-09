@@ -195,7 +195,7 @@ class Page1 extends StatelessWidget {
                       side: MaterialStateBorderSide.resolveWith(
                           (states) => BorderSide(
                                 width: 1,
-                                color: Colors.red.shade300,
+                                color: Colors.red.shade400,
                               )),
                       shape: MaterialStateProperty.all(
                         RoundedRectangleBorder(
@@ -227,7 +227,7 @@ class Page1 extends StatelessWidget {
         style: ButtonStyle(
           side: MaterialStateBorderSide.resolveWith((states) => BorderSide(
                 width: 1,
-                color: Colors.red.shade300,
+                color: Colors.red.shade400,
               )),
           shape: MaterialStateProperty.all(
             RoundedRectangleBorder(
@@ -241,7 +241,7 @@ class Page1 extends StatelessWidget {
           children: [
             Icon(
               Icons.language,
-              color: Colors.red.shade300,
+              color: Colors.red.shade400,
             ),
             const SizedBox(
               width: 10,
@@ -249,7 +249,7 @@ class Page1 extends StatelessWidget {
             customText(
               text: text,
               fontSize: 14,
-              color: Colors.red.shade300,
+              color: Colors.red.shade400,
             )
           ],
         ),
@@ -264,7 +264,7 @@ class Page1 extends StatelessWidget {
       child: ElevatedButton(
         style: ButtonStyle(
           backgroundColor: MaterialStateColor.resolveWith(
-            (states) => Colors.red.shade300,
+            (states) => Colors.red.shade400,
           ),
           elevation: MaterialStateProperty.resolveWith((states) => 0),
           shape: MaterialStateProperty.all(
