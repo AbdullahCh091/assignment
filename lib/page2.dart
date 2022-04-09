@@ -51,7 +51,7 @@ class Page2 extends StatelessWidget {
                     title,
                     style: const TextStyle(
                       fontSize: 16,
-                      color: Colors.green,
+                      color: Colors.white,
                     ),
                   ),
                   subtitle: Text(
@@ -95,15 +95,13 @@ class Page2 extends StatelessWidget {
                           "Search Results",
                           style: TextStyle(
                             fontSize: 18,
-                            color: Colors.blue,
+                            color: Colors.white,
                           ),
                         ),
                         Text(
                           "22,276 founds",
                           style: TextStyle(
-                            fontSize: 18,
-                            color: Colors.red.shade300,
-                          ),
+                              fontSize: 18, color: Colors.red.shade400),
                         ),
                       ],
                     ),
@@ -170,7 +168,7 @@ class Page2 extends StatelessWidget {
     return ElevatedButton(
       style: ButtonStyle(
         backgroundColor: MaterialStateColor.resolveWith(
-          (states) => Colors.red.shade300,
+          (states) => Colors.red.shade400,
         ),
         elevation: MaterialStateProperty.resolveWith((states) => 0),
         shape: MaterialStateProperty.all(
@@ -201,7 +199,7 @@ class Page2 extends StatelessWidget {
         ),
         side: MaterialStateBorderSide.resolveWith(
           (states) => BorderSide(
-            color: Colors.red.shade300,
+            color: Colors.red.shade400,
             width: 2,
           ),
         ),
@@ -210,7 +208,7 @@ class Page2 extends StatelessWidget {
       child: Text(
         "Following",
         style: TextStyle(
-          color: Colors.red.shade300,
+          color: Colors.red.shade400,
           fontWeight: FontWeight.bold,
           letterSpacing: 1,
         ),
